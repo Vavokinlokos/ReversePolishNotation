@@ -16,8 +16,9 @@ func main() {
 	var output string
 
 	input := "(a+b)*c"
+	fmt.Println("Input:  ", input)
 	output = reversePolishNotation(input, stack)
-	fmt.Println(output)
+	fmt.Println("Output:  ", output)
 }
 
 func reversePolishNotation(input string, stack stack.Stack) string {
